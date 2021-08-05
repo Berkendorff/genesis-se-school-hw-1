@@ -22,9 +22,7 @@ router.post(
             async (err, user) => {
                 try {
                     if (err || !user) {
-                        const error = new Error({ message: 'An error occurred.'});
-  
-                        return next(error);
+                        return next(err || new Error('An error occured'));
                     }
   
                     req.login(

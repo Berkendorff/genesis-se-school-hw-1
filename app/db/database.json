@@ -4,6 +4,11 @@
 			"email": "a@a.co",
 			"password": "$2b$10$dG8tlHJsWBF0jZekEDl.dODANy1LOyU8Y0XXGc3.Zc8Q1kNbwOvFq",
 			"isHashed": true
+		},
+		{
+			"email": "a@a.cod",
+			"password": "$2b$10$SOlzIt9LV6gJQs2j0urLQOLTSU5F7IuymRo3HmdRQVJUwceYHfUPu",
+			"isHashed": true
 		}
 	]
 }
