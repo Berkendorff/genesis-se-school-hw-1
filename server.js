@@ -1,7 +1,6 @@
 const path = require('path');
 const express = require('express');
 const passport = require('passport');
-const bodyParser = require('body-parser');
 
 const Database = require('./lib/database');
 
