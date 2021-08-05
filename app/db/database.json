@@ -9,6 +9,16 @@
 			"email": "a@a.cod",
 			"password": "$2b$10$SOlzIt9LV6gJQs2j0urLQOLTSU5F7IuymRo3HmdRQVJUwceYHfUPu",
 			"isHashed": true
+		},
+		{
+			"email": "a@a.con",
+			"password": "$2b$10$mH7V4KCVDogvHedur32A2ecIkBPbFxnNWjCETr9kzDIWWIM7VfaDC",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.conef",
+			"password": "$2b$10$PRSTK9oIQLM/f92Qp7ueqOhZyOcD.mNW0P9foLhZxUkESXs2ruquy",
+			"isHashed": true
 		}
 	]
 }

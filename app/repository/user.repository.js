@@ -13,8 +13,8 @@ class UserRepository {
     async findByEmail(email) {
         const users = await this.db.findByKey(this.entityName, {key: 'email', value: email});
         return users && users.length > 0
-            ? users.map((user) => new User(user))
-            : [];
+            ? users.map((user) => new User(user))[0]
+            : null;
     }
 
     async save(user) {
