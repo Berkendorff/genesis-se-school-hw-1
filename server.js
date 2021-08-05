@@ -20,8 +20,8 @@ const userRepository = new UserRepository(db);
 require('./lib/auth')(userRepository);
 
 app.use(express.static(__dirname + '/app/static'));
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 app.use('/', routes);
 app.use('/btcRate', passport.authenticate('jwt', { session: false }), secureRoute);
 
