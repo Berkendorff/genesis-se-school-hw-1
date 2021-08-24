@@ -2,10 +2,10 @@
   "name": "genesis_btc-uah",
   "version": "1.0.0",
   "description": "API for getting the BTC price in UAH",
-  "main": "server.js",
+  "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node index.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .js ."
   },
@@ -16,6 +16,7 @@
   "author": "berkendorff",
   "license": "ISC",
   "dependencies": {
+    "assert": "^2.0.0",
     "axios": "^0.21.1",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",

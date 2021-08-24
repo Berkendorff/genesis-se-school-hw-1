@@ -1,4 +1,4 @@
 module.exports = () => ({
-    filePath: 'app/db',
+    filePath: 'db',
     fileName: 'database.json',
 });

@@ -19,6 +19,21 @@
 			"email": "a@a.conef",
 			"password": "$2b$10$PRSTK9oIQLM/f92Qp7ueqOhZyOcD.mNW0P9foLhZxUkESXs2ruquy",
 			"isHashed": true
+		},
+		{
+			"email": "a@a.conefdcsd",
+			"password": "$2b$10$1uoEllckPaBNEYN1z6g.tuC00Rm62ikSo/PySkC2OEpsBnmxJqJFW",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.com",
+			"password": "$2b$10$ysu5XnK2ypTBlKzFWykVreEcPU6NERkEPa/ui1/zjE8macKXwntT6",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.cam",
+			"password": "$2b$10$tnhtrialNnzZ4OfqmpnT2ecjYM0wBSi0/V13Gz3riwrrLkqW7UK0S",
+			"isHashed": true
 		}
 	]
 }
