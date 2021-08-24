@@ -20,6 +20,14 @@
 
     The server runs at http://localhost:8000 by default.
 
+### Commands for tests
+
+1. ```npm run test```
+
+2. ```npm run test:unit```
+
+3. ```npm run test:integration```
+
 ### Endpoints
 
 1. ```/user/create```:
