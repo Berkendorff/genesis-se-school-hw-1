@@ -1,0 +1,44 @@
+{
+	"user": [
+		{
+			"email": "a@a.co",
+			"password": "$2b$10$dG8tlHJsWBF0jZekEDl.dODANy1LOyU8Y0XXGc3.Zc8Q1kNbwOvFq",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.cod",
+			"password": "$2b$10$SOlzIt9LV6gJQs2j0urLQOLTSU5F7IuymRo3HmdRQVJUwceYHfUPu",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.con",
+			"password": "$2b$10$mH7V4KCVDogvHedur32A2ecIkBPbFxnNWjCETr9kzDIWWIM7VfaDC",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.conef",
+			"password": "$2b$10$PRSTK9oIQLM/f92Qp7ueqOhZyOcD.mNW0P9foLhZxUkESXs2ruquy",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.conefdcsd",
+			"password": "$2b$10$1uoEllckPaBNEYN1z6g.tuC00Rm62ikSo/PySkC2OEpsBnmxJqJFW",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.com",
+			"password": "$2b$10$ysu5XnK2ypTBlKzFWykVreEcPU6NERkEPa/ui1/zjE8macKXwntT6",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.cam",
+			"password": "$2b$10$tnhtrialNnzZ4OfqmpnT2ecjYM0wBSi0/V13Gz3riwrrLkqW7UK0S",
+			"isHashed": true
+		},
+		{
+			"email": "a@a.cama",
+			"password": "$2b$10$/ZywxocCPiJlJ9w4p6BSP.pOHwFLsgh92CvIhQJF9B4E8ft.HIhJC",
+			"isHashed": true
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"user": [
+		{
+			"email": "aaa@aaa.com",
+			"password": "12345678",
+			"isHashed": false
+		}
+	]
+}
