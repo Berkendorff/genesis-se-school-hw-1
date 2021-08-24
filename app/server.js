@@ -2,13 +2,13 @@ const path = require('path');
 const express = require('express');
 const passport = require('passport');
 
-const Database = require('../lib/database');
+const Database = require('./lib/database');
 
 const routes = require('./routes/routes');
 const secureRoutes = require('./routes/secureRoutes');
 const UserRepository = require('./repository/user.repository');
 const UserModel = require('./model/user.model');
-const AuthMiddleware = require('../lib/auth');
+const AuthMiddleware = require('./lib/auth');
 
 const {filePath, fileName} = require('./config/database')();
 const {port} = require('./config/server')();

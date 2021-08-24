@@ -19,7 +19,7 @@ class UserRepository {
 
     async save(user) {
         await this.db.write(this.entityName, user);
-        return this;
+        return user;
     }
 }
 

@@ -33,6 +33,11 @@ class Database {
         await this.commit();
     }
 
+    async clear(entityName) {
+        this.data[entityName] = [];
+        await this.commit();
+    }
+
     findAll(entityName) {
         return this.data[entityName] || [];
     }

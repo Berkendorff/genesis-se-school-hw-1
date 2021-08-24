@@ -1,4 +1,4 @@
-const {validateEmail} = require('../../lib/util');
+const {validateEmail} = require('../lib/util');
 const UserEntity = require('../entity/user.entity');
 
 class UserModel {

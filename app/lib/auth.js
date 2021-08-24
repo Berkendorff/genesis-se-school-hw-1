@@ -3,7 +3,7 @@ const LocalStrategy = require('passport-local').Strategy;
 const JWTstrategy = require('passport-jwt').Strategy;
 const ExtractJWT = require('passport-jwt').ExtractJwt;
 
-module.exports = (userModel) => {
+const AuthService = (userModel) => {
     passport.use(
         'create',
         new LocalStrategy(
@@ -55,4 +55,7 @@ module.exports = (userModel) => {
             }
         )
     );
+    return passport;
 }
+
+module.exports = AuthService;

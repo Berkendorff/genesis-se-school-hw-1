@@ -1,5 +1,5 @@
 const axios = require('axios');
-const {uahUsdRateServiceURL, usdBtcRateServiceURL} = require('../app/config/rater')();
+const {uahUsdRateServiceURL, usdBtcRateServiceURL} = require('../config/rater')();
 
 module.exports =  async () => {
     const responseNBU = await axios.get(uahUsdRateServiceURL);

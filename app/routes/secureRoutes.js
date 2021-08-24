@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const btcRate = require('../../lib/rater');
+const btcRate = require('../lib/rater');
 
 const secureRoutes = () => {
     router.get(

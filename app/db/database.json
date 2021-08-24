@@ -34,6 +34,11 @@
 			"email": "a@a.cam",
 			"password": "$2b$10$tnhtrialNnzZ4OfqmpnT2ecjYM0wBSi0/V13Gz3riwrrLkqW7UK0S",
 			"isHashed": true
+		},
+		{
+			"email": "a@a.cama",
+			"password": "$2b$10$/ZywxocCPiJlJ9w4p6BSP.pOHwFLsgh92CvIhQJF9B4E8ft.HIhJC",
+			"isHashed": true
 		}
 	]
 }

@@ -9,8 +9,10 @@ class UserEntity {
     }
 
     async hashPassword() {
-        this.password = await bcrypt.hash(this.password, 10);
-        this.isHashed = true;
+        if(!this.isHashed) {
+            this.password = await bcrypt.hash(this.password, 10);
+            this.isHashed = true;
+        }
         return this;
     }
 
